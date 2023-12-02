@@ -1,0 +1,173 @@
+/*responsive web design */
+
+/* For mobile phones: */
+@media only screen and (max-width:576px)
+{
+  #hero-parent
+{
+    height: 100vh;
+  
+    top: 0;
+
+  
+/*     margin-top:80.45px ; */
+}
+#hero-parent .hero-parent-container
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.jpg");
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.hero-overlay
+{
+    height: 100%;
+    width: 100%;
+    
+    background-color: rgba(0,0,0, 0.5);
+    color: var(--color-identity-1);
+   
+}
+.hero-overlay-content
+{
+    height: 35%;
+
+}
+  .hero-overlay-content h2
+{
+    text-transform: capitalize;
+    font-family: var(--header-font-bolder);
+    font-size: 1.5rem;
+}
+  .hero-overlay-content span{
+    font-family: var(--header-Font-regular);
+    font-size: 1rem;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+ 
+    margin-left: -70%;
+   
+
+}
+
+  #spanAni::after{
+    content:"  ";
+position: absolute;
+width: 10%;
+top: 0;
+left: 3rem;
+font-size: 1rem;
+animation-name: spnAni-animation ;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+animation-fill-mode: both;
+
+}
+
+
+ 
+}
+/*orientation*/
+/*
+@media only screen and (orientation: landscape) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+  /* For small : */
+@media  only screen and (min-width: 576px) {
+  #hero-parent
+{
+    height: 100vh;
+    top: 0;
+
+  
+/*     margin-top:80.45px ; */
+}
+#hero-parent .hero-parent-container
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/bg.jpg");
+    background-position:0 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.hero-overlay
+{
+    height: 100%;
+    width: 100%;
+    
+    background-color: rgba(0,0,0, 0.5);
+    color: var(--color-identity-1);
+   
+}
+.hero-overlay-content
+{
+    height: 35%;
+
+}
+  .hero-overlay-content h2
+  {
+      text-transform: capitalize;
+      font-family: var(--header-font-bolder);
+      font-size: 4rem;
+  }
+  .hero-overlay-content span{
+    font-family: var(--header-Font-regular);
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+ 
+    margin-left: -8%;
+   
+
+}
+  #spanAni::after{
+    content:"  ";
+position: absolute;
+width: 10%;
+top: 0;
+left: 5rem;
+font-size: 2rem;
+animation-name: spnAni-animation ;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+animation-fill-mode: both;
+
+}
+
+
+
+}
+  /* For midium display: */
+
+@media only screen and (min-width: 768px) {
+
+
+}
+  /*for large screen */
+
+@media only screen  and (min-width : 992px)
+{ 
+
+
+
+}
+   /*for Xlarge screen */
+
+@media screen and  (min-width :1200px){
+
+}
+   
+
+
+
